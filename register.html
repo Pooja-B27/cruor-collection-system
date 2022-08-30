@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<head>
+<title>register form</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align:center;
+  button align:center;
+}
+
+li a:hover {
+  background-color: #111;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body style="background-image:url('poki.jfif');background-repeat:no-repeat;background-size:cover;">
+<ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="register.html">REGISTRATION</a></li>
+       <li><a href="conditions.html">CONDITIONS</a></li>
+       <li><a href="login.html">LOGIN</a></li>
+       <li><a href="request.html">MESSAGES</a></li>
+</ul>
+<form action="thank.html" onsubmit="myFunction()">
+<h1><center>REGISTRATION</center></h1><br>
+<p align="center">
+<lable>First Name:</lable>
+<input type="variable"name="firstname" required><br><br>
+<lable>Last Name:</lable>
+<input type="variable"name="lastname" required><br><br>
+<lable>GENDER:</lable><br>
+<lable>MALE<Input type="radio"name="gender"><br>
+<lable>FEMALE<Input type="radio"name="gender"><br>
+<lable>OTHER<Input type="radio"name="gender"><br>
+<lable>age:</lable>
+<Input type="Number"required/><br><br>
+<lable>Mobile Number:</lable>
+<Input type="Number"required/><br><br>
+<lable>email ID:</lable>
+<input type="email"name="email" pattern=".+@gmail.com" size="30" required><br><br>
+<lable>Blood group:</lable>
+<select>
+<option name="blood"/>O+
+<option name="blood"/>A+
+<option name="radio"name="blood"/>B+
+<option name="checkbox"name="blood"/>AB+
+<option name="checkbox"name="blood"/>O-
+<option name="checkbox"name="blood"/>A-
+<option name="checkbox"name="blood"/>AB-
+<option name="checkbox"name="blood"/>B-
+</select>
+<br><br>
+<lable>Address</lable><br>
+<textarea colm="10" row="5">
+</textarea><br><br>
+<button type="submit">SUBMIT</button>
+</p>
+<script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+</body>
+</html>
+
+ssss

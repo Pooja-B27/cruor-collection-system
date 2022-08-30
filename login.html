@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+<head>
+<title>register form</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align:right;
+}
+
+li a:hover {
+  background-color: #111;
+}
+input[type=submit]{
+background-color:#04AA6D;
+padding:16px 32px;
+margin:4px 2px;
+cursor:pointer;
+align:center;
+}
+</style>
+</head>
+<body style="background-image:url('vivosa.jfif');background-repeat:no-repeat;background-size:cover;">
+<ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="register.html">REGISTRATION</a></li>
+       <li><a href="conditions.html">CONDITIONS</a></li>
+       <li><a href="login.html">LOGIN</a></li>
+       <li><a href="request.html">MESSAGES</a></li>
+</ul>
+<form action="thank.html" onsubmit="myFunction()">
+<h1 align="center">LOGIN FORM</h1>
+<p align="center">
+<lable>USER NAME:</lable>
+<Input type="First Name"required><br><br>
+<lable>Password:</lable>
+<Input type="password"/><br><br>
+<input type ="submit"/>
+</form>
+
+<script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+</p>
+</body>
+</html>
